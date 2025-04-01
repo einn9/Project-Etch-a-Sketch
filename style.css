@@ -4,13 +4,14 @@ body {
     align-items: center;
 }
 
-.sketchRow, .sketchColumn {
+.sketchColumn, .sketchRow {
     display: flex;  
-    font-size: 20px;
 }
 
-.sketchColumn {
-    border-style: solid;
+#sketchRowID {
+    border: 1px solid black;
+    width: 25px;
+    height: 25px;
 }
 
 
@@ -19,3 +20,6 @@ body {
     text-align: center;
 }
 
+.active {
+    background-color: blue;
+}
