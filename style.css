@@ -1,23 +1,17 @@
-body {
+#container {
+    height: 80vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
 }
 
-.sketchColumn, .sketchRow {
+.sketchColumn{
     display: flex;  
+    flex-grow: 1;
 }
 
 #sketchRowID {
     border: 1px solid black;
-    width: 25px;
-    height: 25px;
-}
-
-
-#container {
-    font-size: 30px; 
-    text-align: center;
+    width: 100%
 }
 
 .active {
